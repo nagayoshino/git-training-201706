@@ -2,10 +2,10 @@ Gitについて調べたこと。
 
 コマンドまとめ
 ・git status：現在のステータスを表示
-・git add [ファイル名]：ファイルを追加
+・git add [ファイルパス]：ファイルを追加
 　* git add -n：追加されるファイルを調べる
-  * git add -u[ファイル名]：変更されたファイルを追加する(新規ファイルは対象外)
-  * git rm --cached [ファイル名]：addしたファイルを除外
+  * git add -u[ファイルパス]：変更されたファイルを追加する(新規ファイルは対象外)
+  * git rm --cached [ファイルパス]：addしたファイルを除外
 ・git commit ：ファイルをコミット
 ・git push ：自分の更新内容をリモートに公開
 ・gitk --all ：現在のツリーとブランチを表示
@@ -17,6 +17,18 @@ Gitについて調べたこと。
 ・git clone：既存リポジトリのコピーを作る
 ・git merge[マージ対象のブランチ名]：ブランチファイルとコミットファイルをマージする
 ・git pull：他のリポジトリの変更点をローカルとマージする
+・git checkout[ファイルパス]：更新した部分を取り消し、masterまで戻る
+
+マージの流れ
+1. add
+2. commit
+3. fetch
+4. F5(gitk --all)
+5. merge/pull
+6. ファイルを再度開き、マージ後の内容に整える
+7. add
+8. commit/ merge --continue / pull -- continue
+7. push
 
 
 その他
