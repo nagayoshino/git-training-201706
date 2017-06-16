@@ -20,6 +20,11 @@ Gitについて調べたこと。
 ・git checkout[ファイルパス]：更新した部分を取り消し、masterまで戻る
 ・git log：コミットログを閲覧する
 
+コミットの流れ
+1. add
+2. commit
+3. push
+
 マージの流れ
 1. add
 2. commit
