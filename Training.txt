@@ -56,3 +56,9 @@ Git：ファイル履歴を管理するソフトウェア。OSSとして開発されている
 　　 最近はMicrosoftも開発に参加している
 　　 もっとも使われている分散バージョン管理システム（DVCS) 。
 
+VCS：バージョン管理システム(VersionControlSystem)
+　　 主にファイルのVCSを指し、仮想マシン(VM)のスナップ管理などもVMに閉じたVCSを提供していると捉える。
+　　・Local
+　　・Center
+　　・Distributed
+
