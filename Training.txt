@@ -58,7 +58,7 @@ Git：ファイル履歴を管理するソフトウェア。OSSとして開発されている
 
 VCS：バージョン管理システム(VersionControlSystem)
 　　 主にファイルのVCSを指し、仮想マシン(VM)のスナップ管理などもVMに閉じたVCSを提供していると捉える。
-　　・Local
-　　・Center
-　　・Distributed
+　　・Local：RCS
+　　・Center：SVN
+　　・Distributed：Git
 
