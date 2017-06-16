@@ -6,3 +6,5 @@ Gitについて調べたこと。
 ・git commit ：ファイルをコミット
 ・git push ：自分の更新内容をリモートに公開
 ・gitk --all ：現在のツリーとブランチを表示
+・git branch ：自身のブランチ情報の表示、作成
+・git show-branch :ブランチの履歴の表示
