@@ -62,3 +62,5 @@ VCS：バージョン管理システム(VersionControlSystem)
 　　・Center：SVN
 　　・Distributed：Git
 
+リポジトリ：VCS全体で使える言葉。コミットやリビジョンとほとんど同じだが、ブランチとは違う
+
