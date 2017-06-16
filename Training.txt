@@ -4,4 +4,5 @@ Gitについて調べたこと。
 ・git status：現在のステータスを表示
 ・git add ：ファイルを追加
 ・git commit ：ファイルをコミット
+・git push ：自分の更新内容をリモートに公開
 ・gitk --all ：現在のツリーとブランチを表示
